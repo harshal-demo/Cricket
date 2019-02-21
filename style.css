@@ -1,31 +1,40 @@
 *{
 box-sizing: border-box;
 }
+
 body
 {
 display: flex;
 flex-direction: column;
 margin:0;
+width: 100%;
 }
+
 a
 {
 text-decoration: none;
 }
+
 #box select{
-  background:#7da52d;
-  color:#fff;
   border: none;
 }
+
+#box select option {
+color:#000;
+}
+
 header
 {
-background: #7da52d ;
+background: #898989 ;
 display: flex;
 align-items: center;
 padding: 15px 0;
 color:#fff;
 }
 header a{
-  color:#fff;
+  color:#000;
+  margin-left:20px;
+margin-right: 20px; 
 }
 header ul
 {
@@ -40,21 +49,45 @@ margin-top:0 ;
 margin-right: auto;
 margin-left: auto;
 font-size: 30px;
+color: #000;
 }
+
 #menu li
 {
   padding: 5px
 }
+
 #designer li{
   padding:5px
 }
+
 #main{
-  background-color: pink;
+  background-color: #e4e4e4;
   padding: 15px;
   display: flex;
+height: 100%;
 }
+
 #main img{
   padding-top:20%;
   padding-left: 3%;
   padding-right: 2%;
 }
+
+font h1 {
+text-align:center;
+margin-top:50px;
+margin-bottom:30px;
+color: coral;
+}
+
+#main h3 {
+margin:0 80px;
+font-weight:600px;
+}
+
+#img img{
+margin: 0 50px 50px 50px;
+height:500px;
+}
+
